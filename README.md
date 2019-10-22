@@ -26,6 +26,7 @@ A Auto Installer Python Script to Install Bedrock Linux on any compatible linux 
 |14|[![](https://github.com/Uniminin/Ripple-Auto-Installer/blob/master/X/fail.svg)](https://github.com/uniminin)| FreeBSD
 |15|[![](https://github.com/Uniminin/Ripple-Auto-Installer/blob/master/X/fail.svg)](https://github.com/uniminin)| Win64
 |16|[![](https://github.com/Uniminin/Ripple-Auto-Installer/blob/master/X/fail.svg)](https://github.com/uniminin)| Win32
+|17|[![](https://github.com/Uniminin/Ripple-Auto-Installer/blob/master/X/fail.svg)](https://github.com/uniminin)| NixOS
 
 ## License ? :scroll: [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Uniminin/BETTER-BEDROCK/blob/master/LICENSE)
 - Check Licence file for more info!
