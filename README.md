@@ -1,4 +1,4 @@
-# BETTER BEDROCK
+# BEDROCK LINUX INSTALLER Python Script
 A Auto Installer Python Script to Install Bedrock Linux on any compatible linux machine.
 
 <p align="center">
