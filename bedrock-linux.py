@@ -4,13 +4,18 @@ import time
 import platform
 import sys
 from sys import platform as _platform
-
 from colorama import init
+
 init(strip=not sys.stdout.isatty())
 from pyfiglet import figlet_format
 
 # For Aesthetics
-call('clear', shell=True)
+if _platform == "linux" or _platform == "linux2":
+    call('cls', shell=True)
+
+elif _platform == "win32" or _platform == "win64":
+    call('clear', shell=True)
+
 
 def info():
     print("")
@@ -23,7 +28,8 @@ def info():
 info()
 
 class bedrock_current_releases:
-    x86_64 = ("https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.10/bedrock-linux-0.7.10-x86_64.sh")
+    x86_64 = (
+        "https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.10/bedrock-linux-0.7.10-x86_64.sh")
 
 def supported_platform():
     while True:
@@ -93,6 +99,7 @@ def supported_platform():
             cprint("Incorrect User Input! Type 'help' to view options and usage.", "red")
             print("")
 
+
 def startup():
     def platformerrors():
         cprint("DETECTED SYSTEM INFO:", 'yellow')
@@ -119,5 +126,6 @@ def startup():
         else:
             cprint("Unknown Error!")
             break
+
 
 startup()
