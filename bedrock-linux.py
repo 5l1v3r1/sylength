@@ -29,7 +29,7 @@ info()
 
 class bedrock_current_releases:
     x86_64 = (
-        "https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.10/bedrock-linux-0.7.10-x86_64.sh")
+        "https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.11/bedrock-linux-0.7.11-x86_64.sh")
 
 def supported_platform():
     while True:
@@ -78,7 +78,7 @@ def supported_platform():
                 print("BIT:", sys.platform)
                 print("")
                 time.sleep(1.3)
-                x86_64_script = ("bedrock-linux-0.7.10-x86_64.sh")
+                x86_64_script = ("bedrock-linux-0.7.11-x86_64.sh")
                 amd64 = bedrock_current_releases()
                 call('cd ~', shell=True)
                 cprint("Creating Folder to Download and execute script at ~/bedrocklinux", "green")
