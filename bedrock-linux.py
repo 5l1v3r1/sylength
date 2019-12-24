@@ -29,7 +29,7 @@ info()
 
 class bedrock_current_releases:
     x86_64 = (
-        "https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.11/bedrock-linux-0.7.11-x86_64.sh")
+        "https://github.com/bedrocklinux/bedrocklinux-userland/releases/download/0.7.12/bedrock-linux-0.7.12-x86_64.sh")
 
 def supported_platform():
     while True:
