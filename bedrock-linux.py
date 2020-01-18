@@ -22,7 +22,7 @@ def info():
     cprint(figlet_format('BEDROCK  LINUX', font='starwars'),
            'yellow', 'on_red', attrs=['bold'])
     # just script version (python)
-    version = ("0.9.4")
+    version = ("1.0")
     print("")
 
 info()
