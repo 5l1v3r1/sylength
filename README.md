@@ -1,4 +1,4 @@
-# BEDROCK LINUX INSTALLER Python Script
+# Sylength
 Auto Installer Python Script to Install Bedrock Linux on any compatible linux machine.
 
 <p align="center">
